@@ -3,14 +3,16 @@ import math
 import calendar
 import module1
 import json
-import tensorflow as tf
 
-# Create a TensorFlow constant tensor
-# Tensors are multi-dimensional arrays with a uniform type (called a dtype ).
-t = tf.constant([100, 200, 300])
-# Print the shape and data type
-print("Tensor Shape:", t.shape)
-print("Data Type:", t.dtype)
+def calculate_area(base,height):
+    print("__name__", __name__)
+    return 1/2 * (base*height)
+
+if __name__ == "__main__":
+    print("Main File")
+    a = calculate_area(10,20)
+    print(a)
+
 
 def codeRW():
     with open("txt.txt", "r") as f:
