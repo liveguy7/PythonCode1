@@ -1,0 +1,4 @@
+teacher: you're late.
+student: i didn't think i was.
+teacher: well, you are.
+student: what do you want me to do?
